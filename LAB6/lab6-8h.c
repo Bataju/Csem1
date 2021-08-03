@@ -1,3 +1,19 @@
+/*A program to print the following pattern
+      0
+     1 1
+    2   2
+   3     3
+  2 4   4 2
+ 1   5 5   1
+0     6     0
+ 1   5 5   1
+  2 4   4 2
+   3     3
+    2   2
+     1 1
+      0   */
+
+
 #include<stdio.h>
 #include<conio.h>
 
