@@ -1,0 +1,19 @@
+      integer n,h,l
+      h = 0
+      l = 0
+      Do 1 k = 1, 5, 1
+         write(*,*)'Enter a number'
+         read(*,*)n
+         if(n.gt.h)then
+                       h=n
+         end if
+         if(l.eq.0)then
+                       l=h
+         end if
+         if(n.lt.l)then
+                       l=n
+         end if
+1     continue
+      write(*,*)'Highest = ',h,' and Lowest =',l
+      read(*,*)n
+      end

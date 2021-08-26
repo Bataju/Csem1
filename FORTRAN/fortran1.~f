@@ -1,0 +1,9 @@
+
+        character x*100,y*100
+        write(*,*)'Enter characters for x and y:'
+        read(*,*)x,y
+        write(*,*)'Content of x:',x
+        write(*,*)'Content of y:',y
+        !this read is used for stopping the direct terminaation of exe
+        read(*,*)a !exclamation symbol for comment
+        end

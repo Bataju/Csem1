@@ -1,0 +1,6 @@
+        character x*10
+        x = 'hello_world'
+1       format(A1)
+        write(*,1)x
+        read(*,*)x
+        end

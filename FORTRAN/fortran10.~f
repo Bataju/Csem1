@@ -1,0 +1,11 @@
+      dimension a(5)
+      write(*,*)'Enter elements of array'
+      do 1 k = 1,5,1
+         read(*,*)a(k)
+1     continue
+      write(*,*)'Elements of array'
+      do 2 k= 1,5,1
+         WRITE(*,*)a(k)
+2     continue
+      READ(*,*)a(1)
+      stop

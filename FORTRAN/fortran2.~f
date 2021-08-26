@@ -1,0 +1,8 @@
+        integer f
+        write(*,*),'Enter the values of f'
+c       read(*,1),f
+        read(*,*),f
+1       format(i3)
+        write(*,1),f
+        read(*,*),f
+        end

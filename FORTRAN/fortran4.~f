@@ -1,0 +1,13 @@
+       integer day
+       write(*,*)'Enter the day number'
+       read(*,*)day
+       
+       goto(10,12)day
+ 10    write(*,*)'Sunday'
+       goto 13
+       
+ 12    write(*,*)'Monday'
+       goto 13
+       
+ 13    read(*,*)day
+       end

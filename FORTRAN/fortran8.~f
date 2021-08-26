@@ -1,0 +1,12 @@
+      integer age
+      real bonus
+      write(*, *)'Enter your age'
+      read(*, *)age
+      write(*, *)'Enter your bonus amount'
+      read(*, *)bonus
+      if(age.gt.65)then
+                   bonus = bonus + 0.1 * bonus
+      end if
+      write(*, *)'Bonus is = ',bonus
+      read(*, *)age
+

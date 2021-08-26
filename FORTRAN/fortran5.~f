@@ -1,0 +1,16 @@
+        integer a,b,x,fx
+        write(*,*)'Enter the values of a, b and x'
+        read(*,*)a,b,x
+        
+        if(x.lt.5) goto 1
+        
+        fx=b*x*x+a*x-15
+        write(*,*)'f(x)=',fx
+        goto 2
+        
+1       fx = a*x*x+b*x+5
+        write(*,*)'f(x)=',fx
+        goto 2
+        
+2       read(*,*)x
+        end
