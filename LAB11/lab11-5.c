@@ -12,6 +12,7 @@ struct memory_spaces
 };
 
 void add_and_subtract(struct memory_spaces, struct memory_spaces, int [], int []);
+//arrays are basically pointers so changes made in the function (i.e. here in the memory location) are permanent and visible in main function
 
 void main()
 {
